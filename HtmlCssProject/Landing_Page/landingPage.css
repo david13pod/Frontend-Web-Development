@@ -83,7 +83,7 @@
             grid-row-gap: 20px;
         }
         #sent{
-            grid-area: sent;
+            grid-area: sent;  
             color: rgb(240, 199, 18);
         }
         .materials{

@@ -1,0 +1,137 @@
+.body{
+    background-color: rgb(10, 9, 9);
+    padding-left: 50px;
+}
+.main{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient( 115deg, rgba(0, 0, 0, 0.9),
+     rgba(1, 1, 2, 0.7) ), 
+     url(img3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.hcont{
+    width: auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.img-div{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#image{
+    max-width: 20%;
+    /* max-height: 10%; */
+    border: solid 4px white;
+    border-radius: 50%;
+}
+.skills{
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start ;
+    /* align-content: flex-start; */
+    /* justify-content: flex-start; */
+    margin-top: 15%;
+    
+}
+.skillimg{
+    /* flex-basis: 30%; */
+    width: 20%;
+    border: solid 6px rgb(30, 204, 235);;
+    border-radius: 6px;
+    
+}
+h3{
+    height: 5px;
+    text-align: left;
+    padding-left: 4%;
+    
+    
+}
+
+.skilltx{
+    /* flex-basis: 70%; */
+    flex-grow: 2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+.sheading{
+    color: rgb(238, 178, 13);
+    margin-top: 5%;
+    font-family: 'Stick', sans-serif;
+}
+.bio{
+    border-top: solid 3px white;
+}
+#bio{
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#name{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#jobid{
+    font-size: 21px;
+    color: rgb(30, 204, 235);
+    font-family: 'Stick', sans-serif;
+
+}
+.space{
+    margin-bottom: 15%;
+}
+/* Footer */
+.footlink{
+    width: auto;
+    display: grid;
+    grid-template-areas:"Email Tel Instagram" "Github Linkedin Project" " plain1 plain2 inc" ;
+    grid-template-columns: 120px 200px 200px;
+    grid-column-gap: 5px;
+    grid-row-gap: 1px; 
+    color: white;
+    justify-content: flex-end;
+    
+    
+}
+footer{
+    width: auto;
+    margin-top: 4%;
+    /* padding-left: 45%; */
+    margin-bottom: 4%;
+}
+
+.Email{
+    grid-area: Email;
+}
+.Tel{
+    grid-area: Tel;
+    color: rgb(19, 128, 182);
+}
+.Inst{
+    grid-area: Instagram;
+    color: rgb(19, 128, 182);
+}
+.Github{
+    grid-area: Github;
+}
+.Linkedin{
+    grid-area: Linkedin;
+}
+.Project{
+    grid-area: Project;
+    color: rgb(19, 128, 182);
+}
+.inc{
+    grid-area: inc;
+    padding-top: 10%;
+}
